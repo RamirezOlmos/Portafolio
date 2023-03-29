@@ -249,7 +249,7 @@ const projects = [
   {
     name: "OpenAI Codex",
     description:
-      `Web-based platform has an elegant user interface that emulates the 
+      `The Web-based platform features an elegant user interface that emulates the 
        ChatGPT app. Seamlessly integrated with the advanced GPT-3 model API, 
        users can submit their code to request translations to other programming 
        languages, check for errors, or perform other programming tasks. Our system 
