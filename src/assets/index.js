@@ -31,7 +31,7 @@ import visual_components from "./company/visual_components.jpg";
 
 import videogames from "./videogames.png";
 import pulppo_landing from "./pulppo_landing.png";
-import tripguide from "./tripguide.png";
+import openai_codex from "./openai_codex.png";
 
 export {
   logo,
@@ -61,7 +61,7 @@ export {
   visual_components,
   videogames,
   pulppo_landing,
-  tripguide,
+  openai_codex,
   santander,
   cindy_posadas,
 };
