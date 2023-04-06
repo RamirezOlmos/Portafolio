@@ -21,9 +21,11 @@ import {
   videogames,
   pulppo_landing,
   openai_codex,
+  finance_dashboard,
   threejs,
   santander,
   cindy_posadas,
+  jared_hernandez,
 } from "../assets";
 
 export const navLinks = [
@@ -162,6 +164,21 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
+      `Deneb es una persona que destaca por su incomparable disciplina y dedicación 
+       a los temas de su interés. Resalta su constante aspiración por actualizarse y 
+       utilizar las herramientas aprendidas en sus actividades cotidianas tanto laborales 
+       como proyectos de índole personal. Sobresale su capacidad por aprender de manera 
+       constante y autodidacta cuando la situación lo apremia. Deneb cuenta con las 
+       competencias sociales, atributos personales, cualidades y actitudes (soft skills) 
+       necesarias para desenvolverse en equipos altamente efectivos en la consecución de 
+       logro de objetivos en proyectos específicos.`,
+    name: "Jared Hernandez",
+    designation: "Titular de la Dirección de Planeación y Evaluación",
+    company: "SISTEMA PÚBLICO DE RADIODIFUSIÓN DEL ESTADO MEXICANO",
+    image: jared_hernandez,
+  },
+  {
+    testimonial:
       `Deneb es una persona que aprende rápido y lo considero sumamente 
        capaz para realizar cualquier trabajo en lo que a tecnologias web 
        y aplicaciones REST se refiere, ya tiene antecedentes de ser data 
@@ -270,6 +287,36 @@ const projects = [
     ],
     image: openai_codex,
     source_code_link: "https://github.com/RamirezOlmos/openAI_codex_JS",
+  },
+  {
+    name: "Finance Dashboard",
+    description:
+      `The finance dashboard is an all-encompassing tool that allows users 
+       to efficiently track financial data and make informed decisions. It 
+       boasts a diverse range of dynamic graphs and tables that provide detailed 
+       insights into revenue, expenses, profits, and product sales. Moreover, the 
+       prediction section of the dashboard incorporates a linear regression model, 
+       which accurately predicts the revenue for the upcoming year, providing valuable 
+       information for future planning. One of the significant advantages of this 
+       dashboard is its customizable nature, allowing businesses to tailor it to 
+       their specific needs, ensuring that the dashboard is a perfect fit for their 
+       financial management requirements.`,
+    tags: [
+      {
+        name: "machine learning",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: finance_dashboard,
+    source_code_link: "https://github.com/RamirezOlmos/finance_dashboard",
   },
 ];
 
