@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 
 import santander from "./feedback/santander.jpg";
 import cindy_posadas from "./feedback/cindy_posadas.jpg";
+import jared_hernandez from "./feedback/jared_hernandez.jpg";
 
 import meta from "./company/meta.png";
 import imss from "./company/imss.jpg";
@@ -32,6 +33,7 @@ import visual_components from "./company/visual_components.jpg";
 import videogames from "./videogames.png";
 import pulppo_landing from "./pulppo_landing.png";
 import openai_codex from "./openai_codex.png";
+import finance_dashboard from "./finance_dashboard.png";
 
 export {
   logo,
@@ -62,6 +64,8 @@ export {
   videogames,
   pulppo_landing,
   openai_codex,
+  finance_dashboard,
   santander,
   cindy_posadas,
+  jared_hernandez,
 };
