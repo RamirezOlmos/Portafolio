@@ -34,6 +34,7 @@ import videogames from "./videogames.png";
 import pulppo_landing from "./pulppo_landing.png";
 import openai_codex from "./openai_codex.png";
 import finance_dashboard from "./finance_dashboard.png";
+import selfDrivingCar_js from "./selfDrivingCar_js.png";
 
 export {
   logo,
@@ -65,6 +66,7 @@ export {
   pulppo_landing,
   openai_codex,
   finance_dashboard,
+  selfDrivingCar_js,
   santander,
   cindy_posadas,
   jared_hernandez,
