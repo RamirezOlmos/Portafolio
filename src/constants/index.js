@@ -22,6 +22,7 @@ import {
   pulppo_landing,
   openai_codex,
   finance_dashboard,
+  selfDrivingCar_js,
   threejs,
   santander,
   cindy_posadas,
@@ -317,6 +318,30 @@ const projects = [
     ],
     image: finance_dashboard,
     source_code_link: "https://github.com/RamirezOlmos/finance_dashboard",
+  },
+  {
+    name: "Self Driving Car Neural Networks",
+    description:
+      `This project utilizes a range of elements including car physics, 
+       road generation, collision-detecting sensors, traffic generation, 
+       neural networks, and genetic algorithms, to create a comprehensive 
+       simulation of a self-driving car.`,
+    tags: [
+      {
+        name: "neural networks",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vanilla javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "machine learning",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: selfDrivingCar_js,
+    source_code_link: "https://github.com/RamirezOlmos/Self_Driving_Car_JS/tree/main",
   },
 ];
 
