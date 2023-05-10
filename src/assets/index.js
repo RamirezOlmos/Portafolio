@@ -35,6 +35,8 @@ import pulppo_landing from "./pulppo_landing.png";
 import openai_codex from "./openai_codex.png";
 import finance_dashboard from "./finance_dashboard.png";
 import selfDrivingCar_js from "./selfDrivingCar_js.png";
+import asteroids_game from "./asteroids_game.png";
+import message_app from "./message_app.png";
 
 export {
   logo,
@@ -67,6 +69,8 @@ export {
   openai_codex,
   finance_dashboard,
   selfDrivingCar_js,
+  message_app,
+  asteroids_game,
   santander,
   cindy_posadas,
   jared_hernandez,

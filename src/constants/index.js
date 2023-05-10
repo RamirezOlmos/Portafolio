@@ -23,6 +23,8 @@ import {
   openai_codex,
   finance_dashboard,
   selfDrivingCar_js,
+  message_app,
+  asteroids_game,
   threejs,
   santander,
   cindy_posadas,
@@ -219,6 +221,110 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Real-Time Message App",
+    description:
+      `This app operates in real-time, much like popular messaging 
+       platforms such as WhatsApp. Developed using Next.js 13 and 
+       Typescript, it leverages the upstash Redis database to deliver 
+       optimal performance and responsiveness. Consequently, users can 
+       expect no lag when sending messages or accepting/rejecting friend 
+       requests.`,
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js 13",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: message_app,
+    source_code_link: "https://github.com/RamirezOlmos/message-app",
+  },
+  {
+    name: "Asteroids Game",
+    description:
+      `The Asteroids game, developed using Python and pygame, 
+       employs Object-oriented programming (OOP) and shares 
+       striking similarities with the classic asteroid game 
+       once played on Atari consoles.`,
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pygame",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OOP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: asteroids_game,
+    source_code_link: "https://github.com/RamirezOlmos/asteroids_pygame",
+  },
+  {
+    name: "Finance Dashboard",
+    description:
+      `The finance dashboard is an all-encompassing tool that allows users 
+       to efficiently track financial data and make informed decisions. It 
+       boasts a diverse range of dynamic graphs and tables that provide detailed 
+       insights into revenue, expenses, profits, and product sales. Moreover, the 
+       prediction section of the dashboard incorporates a linear regression model, 
+       which accurately predicts the revenue for the upcoming year, providing valuable 
+       information for future planning. One of the significant advantages of this 
+       dashboard is its customizable nature, allowing businesses to tailor it to 
+       their specific needs, ensuring that the dashboard is a perfect fit for their 
+       financial management requirements.`,
+    tags: [
+      {
+        name: "machine learning",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: finance_dashboard,
+    source_code_link: "https://github.com/RamirezOlmos/finance_dashboard",
+  },
+  {
+    name: "Self Driving Car Neural Networks",
+    description:
+      `This project utilizes a range of elements including car physics, 
+       road generation, collision-detecting sensors, traffic generation, 
+       neural networks, and genetic algorithms, to create a comprehensive 
+       simulation of a self-driving car.`,
+    tags: [
+      {
+        name: "neural networks",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vanilla javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "machine learning",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: selfDrivingCar_js,
+    source_code_link: "https://github.com/RamirezOlmos/Self_Driving_Car_JS/tree/main",
+  },
+  {
     name: "Videogames",
     description:
       `Web-based platform that allows users to search Videogames 
@@ -288,60 +394,6 @@ const projects = [
     ],
     image: openai_codex,
     source_code_link: "https://github.com/RamirezOlmos/openAI_codex_JS",
-  },
-  {
-    name: "Finance Dashboard",
-    description:
-      `The finance dashboard is an all-encompassing tool that allows users 
-       to efficiently track financial data and make informed decisions. It 
-       boasts a diverse range of dynamic graphs and tables that provide detailed 
-       insights into revenue, expenses, profits, and product sales. Moreover, the 
-       prediction section of the dashboard incorporates a linear regression model, 
-       which accurately predicts the revenue for the upcoming year, providing valuable 
-       information for future planning. One of the significant advantages of this 
-       dashboard is its customizable nature, allowing businesses to tailor it to 
-       their specific needs, ensuring that the dashboard is a perfect fit for their 
-       financial management requirements.`,
-    tags: [
-      {
-        name: "machine learning",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: finance_dashboard,
-    source_code_link: "https://github.com/RamirezOlmos/finance_dashboard",
-  },
-  {
-    name: "Self Driving Car Neural Networks",
-    description:
-      `This project utilizes a range of elements including car physics, 
-       road generation, collision-detecting sensors, traffic generation, 
-       neural networks, and genetic algorithms, to create a comprehensive 
-       simulation of a self-driving car.`,
-    tags: [
-      {
-        name: "neural networks",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "vanilla javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "machine learning",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: selfDrivingCar_js,
-    source_code_link: "https://github.com/RamirezOlmos/Self_Driving_Car_JS/tree/main",
   },
 ];
 
