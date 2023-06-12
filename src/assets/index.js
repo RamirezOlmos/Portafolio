@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs-icon.svg";
+import net from "./tech/NET_Core_Logo.png";
+import c_sharp from "./tech/C_Sharp.png";
 
 import santander from "./feedback/santander.jpg";
 import cindy_posadas from "./feedback/cindy_posadas.jpg";
@@ -37,6 +40,7 @@ import finance_dashboard from "./finance_dashboard.png";
 import selfDrivingCar_js from "./selfDrivingCar_js.png";
 import asteroids_game from "./asteroids_game.png";
 import message_app from "./message_app.png";
+import tetris from "./tetris.png";
 
 export {
   logo,
@@ -60,6 +64,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  nextjs,
+  net,
+  c_sharp,
   meta,
   imss,
   pulppo,
@@ -71,6 +78,7 @@ export {
   selfDrivingCar_js,
   message_app,
   asteroids_game,
+  tetris,
   santander,
   cindy_posadas,
   jared_hernandez,

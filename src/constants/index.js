@@ -12,9 +12,10 @@ import {
   tailwind,
   nodejs,
   python,
-  r_logo,
   git,
-  figma,
+  nextjs,
+  net,
+  c_sharp,
   pulppo,
   visual_components,
   imss,
@@ -25,7 +26,7 @@ import {
   selfDrivingCar_js,
   message_app,
   asteroids_game,
-  threejs,
+  tetris,
   santander,
   cindy_posadas,
   jared_hernandez,
@@ -67,10 +68,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
     name: "CSS 3",
     icon: css,
   },
@@ -103,21 +100,25 @@ const technologies = [
     icon: python,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "HTML 5",
+    icon: html,
   },
   {
-    name: "R",
-    icon: r_logo,
+    name: ".Net",
+    icon: net,
   },
+  {
+    name: "C#",
+    icon: c_sharp,
+  }
 ];
 
 const experiences = [
@@ -220,6 +221,34 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Tetris",
+    description:
+      `The Tetris game is a modern adaptation of the classic 1985 Tetris 
+       game, enhanced with two new features. First, it introduces the ability 
+       to "hold" a piece, giving players the option to save it for later 
+       and switch it with the next piece when desired. Second, it includes 
+       a preview feature that displays the upcoming piece, allowing players 
+       to strategize their moves. The game was developed using the .NET WTF 
+       framework and the C# programming language, ensuring a smooth and 
+       enjoyable gaming experience.`,
+    tags: [
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: ".NET WPF",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OOP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tetris,
+    source_code_link: "https://github.com/RamirezOlmos/Tetris",
+  },
   {
     name: "Real-Time Message App",
     description:
