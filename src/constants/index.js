@@ -16,6 +16,7 @@ import {
   nextjs,
   net,
   c_sharp,
+  monetizandoIdeas,
   pulppo,
   visual_components,
   imss,
@@ -118,10 +119,23 @@ const technologies = [
   {
     name: "C#",
     icon: c_sharp,
-  }
+  },
 ];
 
 const experiences = [
+  {
+    title: "FullStack Developer",
+    company_name: "Monetizando Ideas",
+    icon: monetizandoIdeas,
+    iconBg: "#383E56",
+    date: "August 2023 - October 2023",
+    points: [
+      "Subscriptions Management: Designed and executed the entire subscriptions management system, encompassing database architecture and complete CRUD functionality on the backend. Leveraged Express, Typescript, Object-Oriented Programming principles, and implemented dependency injection with Tsyringe. Adhered to Domain-Driven Design principles for the backend structure. Created the frontend using Next.js, React, and Tailwind CSS, with the UI design meticulously crafted in Figma.",
+      "PDF Upload and Display: Successfully implemented the capability to upload and display PDF documents within the SaaS project. This functionality seamlessly integrates into multiple facets of the project, from uploading End-User License Agreements (EULA) to presenting them to users.",
+      "Password Recovery: Played a pivotal role in the password recovery feature, which involves sending confirmation codes to users via email to verify their accounts. Once users input the code in the interface, they are directed to a password recovery link. Additionally, designed the user interface for the email notifications sent during this process.",
+      "Dashboard UI Development: Contributed to the user interface development of the project's dashboard, adhering to the design concepts originated in Figma. Employed Tailwind CSS to ensure an aesthetically pleasing and user-friendly interface.",
+    ],
+  },
   {
     title: "Intern",
     company_name: "Pulppo",
@@ -167,8 +181,7 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      `Deneb es una persona que destaca por su incomparable disciplina y dedicación 
+    testimonial: `Deneb es una persona que destaca por su incomparable disciplina y dedicación 
        a los temas de su interés. Resalta su constante aspiración por actualizarse y 
        utilizar las herramientas aprendidas en sus actividades cotidianas tanto laborales 
        como proyectos de índole personal. Sobresale su capacidad por aprender de manera 
@@ -182,8 +195,7 @@ const testimonials = [
     image: jared_hernandez,
   },
   {
-    testimonial:
-      `Deneb es una persona que aprende rápido y lo considero sumamente 
+    testimonial: `Deneb es una persona que aprende rápido y lo considero sumamente 
        capaz para realizar cualquier trabajo en lo que a tecnologias web 
        y aplicaciones REST se refiere, ya tiene antecedentes de ser data 
        scientist por lo cual complementa muy bien el conocimiento adquirido 
@@ -194,8 +206,7 @@ const testimonials = [
     image: santander,
   },
   {
-    testimonial:
-      `Deneb es un profesional altamente capacitado y un miembro de equipo 
+    testimonial: `Deneb es un profesional altamente capacitado y un miembro de equipo 
        comprometido. Durante nuestra colaboración en Pulppo, demostró 
        habilidades excepcionales en el trabajo en equipo, el análisis y 
        resolución de problemas, y la capacidad de entender rápidamente el 
@@ -223,8 +234,7 @@ const testimonials = [
 const projects = [
   {
     name: "Tetris",
-    description:
-      `The Tetris game is a modern adaptation of the classic 1985 Tetris 
+    description: `The Tetris game is a modern adaptation of the classic 1985 Tetris 
        game, enhanced with two new features. First, it introduces the ability 
        to "hold" a piece, giving players the option to save it for later 
        and switch it with the next piece when desired. Second, it includes 
@@ -251,8 +261,7 @@ const projects = [
   },
   {
     name: "Real-Time Message App",
-    description:
-      `This app operates in real-time, much like popular messaging 
+    description: `This app operates in real-time, much like popular messaging 
        platforms such as WhatsApp. Developed using Next.js 13 and 
        Typescript, it leverages the upstash Redis database to deliver 
        optimal performance and responsiveness. Consequently, users can 
@@ -277,8 +286,7 @@ const projects = [
   },
   {
     name: "Asteroids Game",
-    description:
-      `The Asteroids game, developed using Python and pygame, 
+    description: `The Asteroids game, developed using Python and pygame, 
        employs Object-oriented programming (OOP) and shares 
        striking similarities with the classic asteroid game 
        once played on Atari consoles.`,
@@ -301,8 +309,7 @@ const projects = [
   },
   {
     name: "Finance Dashboard",
-    description:
-      `The finance dashboard is an all-encompassing tool that allows users 
+    description: `The finance dashboard is an all-encompassing tool that allows users 
        to efficiently track financial data and make informed decisions. It 
        boasts a diverse range of dynamic graphs and tables that provide detailed 
        insights into revenue, expenses, profits, and product sales. Moreover, the 
@@ -331,8 +338,7 @@ const projects = [
   },
   {
     name: "Self Driving Car Neural Networks",
-    description:
-      `This project utilizes a range of elements including car physics, 
+    description: `This project utilizes a range of elements including car physics, 
        road generation, collision-detecting sensors, traffic generation, 
        neural networks, and genetic algorithms, to create a comprehensive 
        simulation of a self-driving car.`,
@@ -351,12 +357,12 @@ const projects = [
       },
     ],
     image: selfDrivingCar_js,
-    source_code_link: "https://github.com/RamirezOlmos/Self_Driving_Car_JS/tree/main",
+    source_code_link:
+      "https://github.com/RamirezOlmos/Self_Driving_Car_JS/tree/main",
   },
   {
     name: "Videogames",
-    description:
-      `Web-based platform that allows users to search Videogames 
+    description: `Web-based platform that allows users to search Videogames 
        information from the RAWG API. The platform also allows users
        to create new information and store it a PostgreSQL database.`,
     tags: [
@@ -378,8 +384,7 @@ const projects = [
   },
   {
     name: "Realstate CRM",
-    description:
-      `Redesigned the landing page to create a simpler and more intuitive 
+    description: `Redesigned the landing page to create a simpler and more intuitive 
        user experience for the Pulppo Public service. Created a new Profile 
        section for Pulppo Agent`,
     tags: [
@@ -401,8 +406,7 @@ const projects = [
   },
   {
     name: "OpenAI Codex",
-    description:
-      `The Web-based platform features an elegant user interface that emulates the 
+    description: `The Web-based platform features an elegant user interface that emulates the 
        ChatGPT app. Seamlessly integrated with the advanced GPT-3 model API, 
        users can submit their code to request translations to other programming 
        languages, check for errors, or perform other programming tasks. The system 

@@ -31,6 +31,7 @@ import jared_hernandez from "./feedback/jared_hernandez.jpg";
 import meta from "./company/meta.png";
 import imss from "./company/imss.jpg";
 import pulppo from "./company/pulppo.png";
+import monetizandoIdeas from "./company/monetizando_ideas.jpeg";
 import visual_components from "./company/visual_components.jpg";
 
 import videogames from "./videogames.png";
@@ -69,6 +70,7 @@ export {
   c_sharp,
   meta,
   imss,
+  monetizandoIdeas,
   pulppo,
   visual_components,
   videogames,
